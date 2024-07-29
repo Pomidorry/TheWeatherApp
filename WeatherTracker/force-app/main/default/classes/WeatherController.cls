@@ -1,4 +1,5 @@
 public with sharing class WeatherController {
+    @AuraEnabled
     public static Map<String, Object> retriveWeather(String cityName) {
         HttpRequest httpRequest = new HttpRequest();
         String baseUrl = 'https://wttr.in/' + cityName + '?format=j2';

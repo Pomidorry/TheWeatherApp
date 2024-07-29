@@ -1,0 +1,7 @@
+.container {
+    background: -webkit-linear-gradient(
+      350deg,
+      rgb(135, 175, 255) 0%,
+      rgb(96, 106, 160) 80%
+    );
+}
