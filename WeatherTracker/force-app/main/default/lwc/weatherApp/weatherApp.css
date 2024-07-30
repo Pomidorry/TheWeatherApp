@@ -107,3 +107,9 @@ p {
     font-weight: bolder;
 
 }
+
+.error {
+    color: rgb(254, 117, 117);
+    font-weight: bolder;
+
+}

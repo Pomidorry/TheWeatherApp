@@ -22,6 +22,12 @@
                             <p>Short description of current weather: {weatherDesc}</p>
                         </div>
                     </template>
+
+                    <template if:false={weatherData}>
+                        <div class="result-form">
+                            <p class="error">{error}</p>
+                        </div>
+                    </template>
         
                     </div>
                 </div>
